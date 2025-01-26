@@ -5,7 +5,6 @@ I leveraged player tracking data from the 2023 NFL Big Data Bowl competition to 
 Using this identification system, I then trained a gradient boosting model to evaluate spin move rushers and analyze the factors that affect the efficacy of a spin move.
 The work also creates a spin move rushing metric to quantify the ability of each rusher to execute a spin move. The statistical properties of this metric are demonstrated.
 
-I used Python to clean and wrangle the data, and to fit it to my physics model. I used R to create visualizations to complement my analysis.
 To reproduce my BDB project:
 1. First, run the bdb-data-cleaning file and download the output
 2. Then, run the bdb_spin_moves_identification file
